@@ -1,0 +1,18 @@
+enable
+configure terminal
+
+! Block DNS (UDP port 53) from PC0 to Web Server in DMZ
+access-list 100 deny udp 192.168.1.0 0.0.0.255 192.168.10.10 0.0.0.0 eq 53
+
+! Permit HTTP (TCP port 80) from PC0 to Web Server
+access-list 100 permit tcp 192.168.1.0 0.0.0.255 192.168.10.10 0.0.0.0 eq 80
+
+! Optional: Permit other traffic as needed (e.g., ICMP or specific services)
+access-list 100 permit icmp any any
+
+! Apply ACL on interface facing LAN (inbound)
+interface GigabitEthernet0/0
+ ip access-group 100 in
+
+end
+write memory

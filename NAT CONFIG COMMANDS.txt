@@ -1,0 +1,31 @@
+enable
+configure terminal
+
+! Set up interfaces with IP addresses
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ ip nat inside
+ no shutdown
+exit
+
+interface GigabitEthernet0/1
+ ip address 192.168.10.1 255.255.255.0
+ ip nat inside
+ no shutdown
+exit
+
+interface GigabitEthernet0/2
+ ip address 192.168.20.1 255.255.255.0
+ ip nat outside
+ no shutdown
+exit
+
+! Define standard ACL to match internal private IPs for NAT
+access-list 1 permit 192.168.1.0 0.0.0.255
+access-list 1 permit 192.168.10.0 0.0.0.255
+
+! Configure PAT (Port Address Translation)
+ip nat inside source list 1 interface GigabitEthernet0/2 overload
+
+end
+write memory
