@@ -1,4 +1,5 @@
-# 🔐 Network Security Project: DMZ with ACL and NAT (Cisco Packet Tracer) with the help of ChatGpt
+# 🔒 Network Security Project: Configuring DMZ with NAT and ACL using Cisco Packet Tracer
+
 
 ## Summary
 
@@ -85,6 +86,9 @@ Built with support from **ChatGPT (OpenAI)** for guidance and technical explanat
 | `README.md` | Project explanation |
 
 ---
+
+### 📌 Note
+This project was built and tested by me using Cisco Packet Tracer. I used ChatGPT for guidance during configuration and troubleshooting to reinforce my understanding of NAT and ACL concepts.
 
 ## Contact
 
