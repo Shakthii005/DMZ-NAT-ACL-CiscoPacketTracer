@@ -113,7 +113,7 @@ Built in **Cisco Packet Tracer**, the setup simulates a real-world enterprise ne
 
 👤 **Shakthivel Rajesh**  
 🎓 B.Tech Cybersecurity (3rd Year)  
-🎯 Aspiring Network Security Engineer | SFS Candidate (Fall 2027)  
+🎯 Aspiring Network Security Engineer
 
 📧 svelr005@gmail.com  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/svelr005/)  
