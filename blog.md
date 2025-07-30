@@ -1,0 +1,1 @@
+This file is about the blog which i was wriiten about this project by how it is aligned with NIST framework check out the blog in: https://medium.com/@rukhuraj1/applying-the-nist-cybersecurity-framework-to-a-dmz-project-cisco-packet-tracer-cfaf8641f8f0
