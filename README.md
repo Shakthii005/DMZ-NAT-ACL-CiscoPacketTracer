@@ -4,7 +4,7 @@
 This project demonstrates a secure network design using a **DMZ (Demilitarized Zone)**, **Access Control Lists (ACLs)**, and **Network Address Translation (NAT)** to regulate and protect traffic between internal, external, and public-facing zones.
 
 Built in **Cisco Packet Tracer**, the setup simulates a real-world enterprise network environment with **segmentation, NAT, and access control**, commonly used in federal and enterprise networks.
-
+Check out the blog about this Project how it's aligned with NIST framework : https://medium.com/@rukhuraj1/applying-the-nist-cybersecurity-framework-to-a-dmz-project-cisco-packet-tracer-cfaf8641f8f0
 ---
 
 ## 🎯 Objectives
